@@ -117,7 +117,7 @@ PDF → Extract Text → AI Analysis → JSON Report
 - **python-dotenv** - Environment management
 
 ## 🎥 Demo Video
-[Watch 2-Minute Demo Video](YOUR_VIDEO_LINK_HERE)
+[Watch 2-Minute Demo Video](https://youtu.be/tts-XUHU6Ek)
 
 ## 👤 Author
 NIYAMR 48-Hour Internship Assignment
