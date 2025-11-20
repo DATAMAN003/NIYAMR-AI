@@ -49,18 +49,7 @@ You should now have:
 - `extracted_text.txt` - Full text from PDF
 - `output_report.json` - Complete analysis with all 4 tasks
 
-## Next Steps
 
-1. **Review the output** - Make sure it looks good
-2. **Push to GitHub** - Follow SUBMISSION_CHECKLIST.txt
-3. **Record video** - Use VIDEO_SCRIPT.md as guide
-4. **Submit** - Send GitHub + video links
-
-## Need Help?
-
-- Setup issues? → See SETUP_GUIDE.md
-- Errors? → See TROUBLESHOOTING.md
-- Questions? → See README.md
 
 ## One-Liner (if everything is set up)
 ```bash
