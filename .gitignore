@@ -1,0 +1,15 @@
+# Environment
+.env
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Output files (generated when running)
+extracted_text.txt
+# Note: output_report.json is included as sample output
+
+# IDE
+.vscode/
+.idea/
+*.swp

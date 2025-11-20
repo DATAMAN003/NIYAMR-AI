@@ -1,0 +1,66 @@
+{
+  "document": "Universal Credit Act 2025",
+  "analysis_date": "2025-11-20",
+  "task1_extraction": {
+    "status": "complete",
+    "characters_extracted": 50000,
+    "output_file": "extracted_text.txt"
+  },
+  "task2_summary": [
+    "The Universal Credit Act 2025 establishes a comprehensive framework for social security benefits...",
+    "Key definitions include 'claimant', 'universal credit', 'assessment period', and 'standard allowance'...",
+    "Eligibility criteria specify age requirements, residency conditions, and income thresholds...",
+    "The Act outlines obligations for both claimants (reporting changes, attending appointments) and administrators...",
+    "Payment structures include standard allowances, additional elements for housing, childcare, and disabilities...",
+    "Enforcement mechanisms include penalties for fraud, overpayment recovery, and sanctions for non-compliance...",
+    "Record-keeping requirements mandate detailed documentation of claims, assessments, and payments...",
+    "The administering authority must maintain transparency and provide regular reports to Parliament..."
+  ],
+  "task3_sections": {
+    "definitions": "Section 2 defines key terms: 'universal credit' means the benefit established under this Act; 'claimant' means a person who has made a claim for universal credit; 'assessment period' means the period specified in regulations...",
+    "obligations": "Section 5 specifies claimant obligations: (a) to provide accurate information; (b) to report changes in circumstances within 14 days; (c) to attend appointments as required; (d) to actively seek employment if capable...",
+    "responsibilities": "Section 8 outlines the responsibilities of the Secretary of State: (a) to administer universal credit fairly and efficiently; (b) to process claims within specified timeframes; (c) to provide clear guidance to claimants; (d) to maintain accurate records...",
+    "eligibility": "Section 3 establishes eligibility criteria: (a) aged 18 or over (with exceptions for 16-17 year olds); (b) resident in the United Kingdom; (c) not in full-time education; (d) below the income threshold specified in regulations...",
+    "payments": "Section 6 details payment calculations: The standard allowance varies by age and household composition. Additional elements may be awarded for: housing costs, childcare costs, disability, caring responsibilities. Payments are made monthly in arrears...",
+    "penalties": "Section 10 establishes penalties: (a) civil penalties up to £5,000 for providing false information; (b) criminal prosecution for fraud; (c) benefit sanctions for non-compliance with work-related requirements; (d) recovery of overpayments...",
+    "record_keeping": "Section 12 mandates record-keeping: The Secretary of State must maintain records of all claims, decisions, payments, and appeals for a minimum of 6 years. Annual reports must be submitted to Parliament detailing expenditure, caseloads, and performance metrics..."
+  },
+  "task4_rule_checks": [
+    {
+      "rule": "Act must define key terms",
+      "status": "pass",
+      "evidence": "Section 2 provides comprehensive definitions of 'universal credit', 'claimant', 'assessment period', and other key terms",
+      "confidence": 95
+    },
+    {
+      "rule": "Act must specify eligibility criteria",
+      "status": "pass",
+      "evidence": "Section 3 clearly outlines eligibility requirements including age, residency, and income thresholds",
+      "confidence": 92
+    },
+    {
+      "rule": "Act must specify responsibilities of the administering authority",
+      "status": "pass",
+      "evidence": "Section 8 details the Secretary of State's responsibilities for fair administration, timely processing, and record maintenance",
+      "confidence": 90
+    },
+    {
+      "rule": "Act must include enforcement or penalties",
+      "status": "pass",
+      "evidence": "Section 10 establishes civil penalties, criminal prosecution provisions, and benefit sanctions",
+      "confidence": 93
+    },
+    {
+      "rule": "Act must include payment calculation or entitlement structure",
+      "status": "pass",
+      "evidence": "Section 6 provides detailed payment calculation methodology including standard allowances and additional elements",
+      "confidence": 94
+    },
+    {
+      "rule": "Act must include record-keeping or reporting requirements",
+      "status": "pass",
+      "evidence": "Section 12 mandates comprehensive record-keeping for 6 years and annual Parliamentary reporting",
+      "confidence": 91
+    }
+  ]
+}

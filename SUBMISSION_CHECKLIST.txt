@@ -1,0 +1,102 @@
+╔════════════════════════════════════════════════════════════════╗
+║     NIYAMR 48-HOUR INTERNSHIP - SUBMISSION CHECKLIST          ║
+╚════════════════════════════════════════════════════════════════╝
+
+BEFORE YOU START:
+□ Install Python 3.8+
+□ Get OpenAI API key (https://platform.openai.com/api-keys)
+□ Install Git
+
+SETUP & TEST:
+□ Run: pip install -r requirements.txt
+□ Copy .env.example to .env
+□ Add your OpenAI API key to .env
+□ Run: python test_setup.py (verify all checks pass)
+□ Run: python agent.py (generate output)
+□ Verify output_report.json was created
+□ Review the JSON output to ensure it looks good
+
+GITHUB REPOSITORY:
+□ Create new GitHub repository (public)
+□ Initialize git: git init
+□ Add files: git add .
+□ Commit: git commit -m "Complete Universal Credit Act AI Agent"
+□ Add remote: git remote add origin [YOUR_REPO_URL]
+□ Push: git push -u origin main
+□ Verify all files are visible on GitHub
+□ Check that .env is NOT in the repo (should be ignored)
+□ Add output_report.json to repo as sample output
+
+REQUIRED FILES IN REPO:
+□ agent.py
+□ requirements.txt
+□ README.md
+□ .env.example
+□ .gitignore
+□ ukpga_20250022_en.pdf
+□ output_report.json (sample output)
+□ SETUP_GUIDE.md (optional but helpful)
+
+2-MINUTE VIDEO:
+□ Review VIDEO_SCRIPT.md
+□ Practice your presentation
+□ Record video (use Loom, OBS, Zoom, etc.)
+□ Keep it under 2 minutes
+□ Cover: Introduction, Architecture, Tasks, Demo, Conclusion
+□ Upload to YouTube/Loom/Google Drive
+□ Set video to public or unlisted
+□ Get shareable link
+□ Add video link to README.md
+
+FINAL SUBMISSION:
+□ GitHub repository URL ready
+□ Repository is public
+□ Video link added to README
+□ Test cloning repo in fresh directory
+□ Verify setup works from scratch
+□ Prepare submission email with:
+   - GitHub repo link
+   - Video link
+   - Brief introduction
+
+SUBMISSION EMAIL TEMPLATE:
+────────────────────────────────────────────────────────────────
+Subject: NIYAMR 48-Hour Internship Assignment - [Your Name]
+
+Dear NIYAMR Team,
+
+I have completed the 48-hour AI Agent Development internship 
+assignment. Please find my submission below:
+
+GitHub Repository: [YOUR_REPO_URL]
+Demo Video: [YOUR_VIDEO_URL]
+
+The AI agent successfully completes all 4 required tasks:
+- Task 1: PDF text extraction
+- Task 2: Act summarization
+- Task 3: Key section extraction
+- Task 4: Rule compliance checks
+
+The repository includes complete code, documentation, and sample
+JSON output. Setup instructions are in the README.
+
+Thank you for this opportunity!
+
+Best regards,
+[Your Name]
+────────────────────────────────────────────────────────────────
+
+QUALITY CHECKS:
+□ Code runs without errors
+□ JSON output is valid and complete
+□ README is clear and professional
+□ Video is clear and under 2 minutes
+□ No API keys exposed in repo
+□ All documentation is accurate
+
+DEADLINE:
+□ Submitted within 48 hours of receiving assignment
+
+═══════════════════════════════════════════════════════════════
+                    GOOD LUCK! 🚀
+═══════════════════════════════════════════════════════════════
