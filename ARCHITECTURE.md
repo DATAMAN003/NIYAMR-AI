@@ -59,9 +59,9 @@ ukpga_20250022_en.pdf
                     │                      │                      │
                     ▼                      ▼                      ▼
               ┌──────────┐          ┌──────────┐          ┌──────────┐
-              │ OpenAI   │          │ OpenAI   │          │ OpenAI   │
-              │ GPT-4o   │          │ GPT-4o   │          │ GPT-4o   │
-              │  mini    │          │  mini    │          │  mini    │
+              │  Groq    │          │  Groq    │          │  Groq    │
+              │  Llama   │          │  Llama   │          │  Llama   │
+              │ 3.3 70B  │          │ 3.3 70B  │          │ 3.3 70B  │
               └────┬─────┘          └────┬─────┘          └────┬─────┘
                    │                     │                     │
                    ▼                     ▼                     ▼
@@ -110,8 +110,8 @@ ukpga_20250022_en.pdf
 ┌─────────────────────────────────────┐
 │       AI Analysis Layer             │
 │                                     │
-│  Tool: OpenAI GPT-4o-mini          │
-│  API: openai.chat.completions      │
+│  Tool: Groq Llama 3.3 70B          │
+│  API: groq.chat.completions        │
 │                                     │
 │  ┌─────────────────────────────┐   │
 │  │  Task 2: Summarization      │   │
@@ -166,7 +166,7 @@ ukpga_20250022_en.pdf
 │  Loaded by: python-dotenv           │
 │                                     │
 │  Variables:                         │
-│    OPENAI_API_KEY=sk-...           │
+│    GROQ_API_KEY=gsk-...            │
 │                                     │
 │  Security:                          │
 │    - Not committed to Git          │
@@ -181,7 +181,7 @@ ukpga_20250022_en.pdf
 class UniversalCreditActAgent:
     
     def __init__(self, pdf_path):
-        # Initialize OpenAI client
+        # Initialize Groq client
         # Store PDF path
         # Prepare text buffer
     
@@ -191,18 +191,18 @@ class UniversalCreditActAgent:
         # Save to file
     
     def task2_summarize(self):
-        # Send text to OpenAI
+        # Send text to Groq
         # Request 5-10 bullet points
         # Return JSON array
     
     def task3_extract_sections(self):
-        # Send text to OpenAI
+        # Send text to Groq
         # Request 7 sections
         # Return JSON object
     
     def task4_rule_checks(self, sections):
         # For each of 6 rules:
-        #   - Send section to OpenAI
+        #   - Send section to Groq
         #   - Request validation
         #   - Get pass/fail + confidence
         # Return JSON array
@@ -221,17 +221,17 @@ class UniversalCreditActAgent:
 │        External Services            │
 │                                     │
 │  ┌───────────────────────────────┐ │
-│  │  OpenAI API                   │ │
-│  │  - Endpoint: api.openai.com   │ │
-│  │  - Model: gpt-4o-mini         │ │
-│  │  - Auth: API Key              │ │
-│  │  - Rate Limit: Varies         │ │
+│  │  Groq API                     │ │
+│  │  - Endpoint: api.groq.com     │ │
+│  │  - Model: llama-3.3-70b       │ │
+│  │  - Auth: API Key (FREE)       │ │
+│  │  - Rate Limit: Generous       │ │
 │  └───────────────────────────────┘ │
 │                                     │
 │  ┌───────────────────────────────┐ │
 │  │  Python Packages              │ │
 │  │  - PyPDF2: PDF processing     │ │
-│  │  - openai: API client         │ │
+│  │  - groq: API client           │ │
 │  │  - python-dotenv: Config      │ │
 │  └───────────────────────────────┘ │
 └─────────────────────────────────────┘
@@ -244,7 +244,7 @@ START
   │
   ├─→ Load environment variables (.env)
   │
-  ├─→ Initialize OpenAI client
+  ├─→ Initialize Groq client
   │
   ├─→ TASK 1: Extract PDF text
   │     ├─→ Open PDF with PyPDF2
@@ -253,13 +253,13 @@ START
   │     └─→ Store in memory
   │
   ├─→ TASK 2: Summarize
-  │     ├─→ Send text to OpenAI
+  │     ├─→ Send text to Groq
   │     ├─→ Request summary format
   │     ├─→ Parse JSON response
   │     └─→ Store summary
   │
   ├─→ TASK 3: Extract sections
-  │     ├─→ Send text to OpenAI
+  │     ├─→ Send text to Groq
   │     ├─→ Request 7 sections
   │     ├─→ Parse JSON response
   │     └─→ Store sections

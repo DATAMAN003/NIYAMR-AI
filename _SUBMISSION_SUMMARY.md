@@ -144,7 +144,7 @@ python agent.py
 
 ## 🔑 Unique Selling Points
 
-1. **Only FREE solution** - No OpenAI costs
+1. **Only FREE solution** - No costs, no credit card needed
 2. **Llama 3.3 70B** - Powerful, compliant
 3. **Accurate analysis** - Honest results
 4. **Complete docs** - Multiple guides
